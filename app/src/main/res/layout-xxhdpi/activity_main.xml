@@ -8,9 +8,10 @@
 
     <ImageView
         android:id="@+id/logo_iv"
-        android:layout_width="237dp"
-        android:layout_height="263dp"
-        android:layout_marginTop="192dp"
+        android:layout_width="199dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="224dp"
+        android:transitionName="logo_transition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,9 +19,10 @@
 
     <ImageView
         android:id="@+id/tittle_iv"
-        android:layout_width="383dp"
-        android:layout_height="77dp"
+        android:layout_width="346dp"
+        android:layout_height="67dp"
         android:layout_marginTop="-2dp"
+        android:transitionName="titulo_transition"
         app:layout_constraintBottom_toTopOf="@+id/owner_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,11 +35,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:fontFamily="sans-serif-condensed-medium"
+        android:fontFamily="@font/allan_bold"
         android:text="ANDRES MUNIVE"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="16sp"
+        android:transitionName="owner_transition"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
