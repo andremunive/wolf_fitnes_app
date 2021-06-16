@@ -7,7 +7,7 @@
     android:background="@drawable/ic_all">
 
     <TextView
-        android:id="@+id/owner_tv2"
+        android:id="@+id/owner_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -147,6 +147,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         android:text="¿No tienes cuenta? Registrate"
         android:textColor="@color/white"
+        android:onClick="showRegistro"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

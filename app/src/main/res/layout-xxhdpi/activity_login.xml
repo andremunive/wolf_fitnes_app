@@ -7,7 +7,7 @@
     android:background="@drawable/ic_all">
 
     <TextView
-        android:id="@+id/owner_tv2"
+        android:id="@+id/owner_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -25,10 +25,8 @@
         android:id="@+id/logo_iv"
         android:layout_width="162dp"
         android:layout_height="172dp"
-        android:layout_marginStart="100dp"
-        android:transitionName="logo_transition"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="100dp"
+        android:transitionName="logo_transition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,8 +36,6 @@
         android:id="@+id/titulo_iv"
         android:layout_width="281dp"
         android:layout_height="50dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="36dp"
         android:transitionName="titulo_transition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,6 +57,7 @@
             android:hint="Email"
             android:textColorHint="@color/white"
             app:hintTextColor="@color/white"
+            android:transitionName="email_transition"
             app:startIconDrawable="@drawable/ic_email"
             app:startIconTint="@color/white">
 
@@ -88,6 +85,7 @@
             app:endIconMode="password_toggle"
             app:endIconTint="@color/white"
             app:hintTextColor="@color/white"
+            android:transitionName="pass_transition"
             app:startIconDrawable="@drawable/ic_pass"
             app:startIconTint="@color/white">
 
@@ -106,12 +104,14 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:id="@+id/forgot_pass_tv"
             android:layout_height="wrap_content"
             android:layout_below="@+id/pass_l"
             android:layout_marginStart="20dp"
             android:layout_marginTop="5dp"
             android:alpha="0.7"
             android:fontFamily="sans-serif-condensed-medium"
+            android:transitionName="forgot_transition"
             android:text="¿Olvidaste tu contraseña?"
             android:textColor="@color/white" />
 
@@ -127,6 +127,7 @@
         android:layout_marginEnd="35dp"
         android:text="Iniciar Sesion"
         app:layout_constraintEnd_toEndOf="parent"
+        android:transitionName="go_transition"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
         android:fontFamily="sans-serif-condensed-medium"
@@ -135,14 +136,16 @@
         android:textAllCaps="false"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/registro_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:alpha="0.7"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="¿No tienes cuenta? Registrate"
+        android:transitionName="singup_transition"
         android:textColor="@color/white"
+        android:onClick="showRegistro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_b" />

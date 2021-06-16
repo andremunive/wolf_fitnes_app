@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182105775172",
+    "project_id": "wolf-fitness",
+    "storage_bucket": "wolf-fitness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182105775172:android:acb06ca1da0b87e5773011",
+        "android_client_info": {
+          "package_name": "com.deverott.wolffitnesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182105775172-g4i20or6ellcht8g7dnm3sb807ls71b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-77HnhmeQPjRzVjHbX_wGJQVCjw4kyVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182105775172-g4i20or6ellcht8g7dnm3sb807ls71b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
