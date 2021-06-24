@@ -14,4 +14,25 @@
         <!-- Customize your theme here. -->
         <item name="android:windowContentTransitions">true</item>
     </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Menu Style -->
+    <style name="navigationTheme">
+        <!-- Colores del texto e ícono cuando están seleccionados -->
+        <item name="colorPrimary">@color/defecto</item>
+
+        <!-- color del background cuando está seleccionado -->
+        <item name="colorControlHighlight">@color/black</item>
+
+
+
+    </style>
 </resources>

@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">wolf fitnes app</string>
+    <string name="designer">ANDRES MUNIVE</string>
+    <string name="slogan_name">Tus objetivos son nuestra prioridad</string>
+    <string name="logo_name">Wolf Fitness</string>
+
+    <!-- Strings for login -->
+
+    <!-- Buttons -->
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="registrate">¿No tienes cuenta? Regístrate</string>
+    <string name="recuperar_pass">¿Olvidaste tu contraseña?</string>
+
+    <!-- Hints -->
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+
+    <!-- Strings for singup -->
+
+    <!-- Buttons -->
+    <string name="siguiente">Siguiente</string>
+    <string name="entrenador">Entrenador</string>
+    <string name="cliente">Cliente</string>
+
+    <!-- Hints -->
+    <string name="whatsapp">WhatsApp</string>
+    <string name="correo">Email</string>
+    <string name="password1">Contraseña</string>
+    <string name="password2">Confirmar Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellidos</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="estatura">Estatura en Centímetros</string>
+
+    <!-- Strings for Home Page -->
+
+    <!-- Titles and Descriptions -->
+    <string name="bienvenido">Bienvenido a Wolf Fitness App</string>
+    <string name="cronometro">Cronómetro</string>
+    <string name="temporizador">Temporizador</string>
+    <string name="home">PANTALLA PRINCIPAL</string>
+    <string name="tools">HERRAMIENTAS</string>
+    <string name="rutinas">RUTINAS</string>
+    <string name="perfil">Perfil</string>
+    <string name="progreso">Progreso</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="add_progress">Añadir Chequeo</string>
+    <string name="add_peso">Añadir Peso</string>
+    <string name="add_especific_progress">Añadir Chequeo Específico</string>
+    <string name="title_activity_principal_home">principal_home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
 </resources>

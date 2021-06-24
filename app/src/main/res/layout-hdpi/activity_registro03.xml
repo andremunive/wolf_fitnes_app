@@ -43,7 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Entrenador"
+                    android:text="@string/entrenador"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
 
@@ -82,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Cliente"
+                    android:text="@string/cliente"
                     android:textColor="@color/white"
                     android:textSize="24sp" />
 

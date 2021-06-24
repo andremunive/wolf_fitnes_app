@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".registro.registro03"></activity>
+        <activity android:name=".customerHome" />
+        <activity android:name=".registro.registro03" />
         <activity android:name=".registro.registro02" />
         <activity android:name=".registro.registro01" />
         <activity android:name=".login" />

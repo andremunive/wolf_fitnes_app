@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:fontFamily="@font/allan_bold"
-        android:text="ANDRES MUNIVE"
+        android:text="@string/designer"
         android:transitionName="owner_transition"
         android:textColor="@color/white"
         android:textSize="12sp"
@@ -58,7 +58,7 @@
             android:id="@+id/email_l"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:textColorHint="@color/white"
             app:hintTextColor="@color/white"
             app:startIconDrawable="@drawable/ic_email"
@@ -84,8 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/email_l"
             android:layout_marginTop="10dp"
-            android:hint="Contraseña"
-
+            android:hint="@string/password"
             android:textColorHint="@color/white"
             app:endIconMode="password_toggle"
             app:endIconTint="@color/white"
@@ -116,7 +115,7 @@
             android:textSize="12sp"
             android:alpha="0.7"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="¿Olvidaste tu contraseña?"
+            android:text="@string/recuperar_pass"
             android:textColor="@color/white" />
 
 
@@ -129,7 +128,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
-        android:text="Iniciar Sesion"
+        android:text="@string/iniciar_sesion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
@@ -145,10 +144,10 @@
         android:layout_marginTop="16dp"
         android:alpha="0.7"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="¿No tienes cuenta? Registrate"
+        android:text="@string/registrate"
         android:textColor="@color/white"
         android:onClick="showRegistro"
-        android:textSize="12dp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_b" />

@@ -41,27 +41,6 @@ public class login extends AppCompatActivity {
         registro = findViewById(R.id.registro_tv);
         owner = findViewById(R.id.owner_tv);
 
-        /*registro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(login.this, registro01.class);
-
-                Pair[] pairs = new Pair[8];
-
-                pairs[0] = new Pair<View, String>(logo, "logo_transition");
-                pairs[1] = new Pair<View, String>(titulo, "titulo_transition");
-                pairs[2] = new Pair<View, String>(email, "email_transition");
-                pairs[3] = new Pair<View, String>(pass, "pass_transition");
-                pairs[4] = new Pair<View, String>(forgot, "forgot_transition");
-                pairs[5] = new Pair<View, String>(login, "go_transition");
-                pairs[6] = new Pair<View, String>(registro, "singup_transition");
-                pairs[7] = new Pair<View, String>(owner, "owner_transition");
-
-                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(login.this, pairs);
-                startActivity(intent, options.toBundle());
-            }
-        });*/
-
     }
 
 
@@ -81,6 +60,15 @@ public class login extends AppCompatActivity {
         pairs[5] = new Pair<View, String>(owner, "owner_transition");
 
         //ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(login.this, pairs);
+        startActivity(intent);
+    }
+
+    public void loginClick(View view){
+        showHome();
+    }
+
+    private void showHome(){
+        Intent intent = new Intent(this, customerHome.class);
         startActivity(intent);
     }
 }
